@@ -6,9 +6,12 @@
     <meta name="description" content="Wordfighter : New game I'm making" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <script type="text/javascript" src="javascripts/main.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/jquery.megamenu.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/jquery.cycle.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="javascripts/jquery.megamenu.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
 
     <title>Wordfighter</title>
   </head>
@@ -17,18 +20,35 @@
     <div id="container_wrap">
       <div id="container">
         
+				<div class="cycle">
+					<img src="images/sprite_download.png" class="bgM"/>
+					<img src="images/icon_download.png" class="bgM"/>
+					<img src="images/sprite_download.png" class="bgM"/>
+				</div>
+				
         <!-- HEADER -->
         <div id="header_wrap" class="outer">
 					<div class="inner">
-            <div>This is my page</div>
+            <ul class="megamenu">
+							<li>
+								<a href="Javascript: void(0)">First Menu</a>
+								<div style="width: 350px;">Contents of the first mega menu</div>
+							</li>
+							<li>
+								<a href="Javascript: void(0)">Second Menu</a>
+								<div style="width: 350px;">Contents of the second mega menu</div>
+							</li>
+						</ul>
           </div>
         </div>
     
         <!-- MAIN CONTENT -->
         <div id="main_content_wrap" class="outer">
-          <section id="main_content" class="inner">
-            <div>Testing here main content here</div>
-          </section>
+          <div id="main_content" class="inner">
+            
+							content here here here here
+						
+          </div>
         </div>
     
         <!-- FOOTER  -->
