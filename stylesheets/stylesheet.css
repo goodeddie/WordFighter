@@ -31,8 +31,6 @@ Tags
 body {
   height: 100%;
   width: 100%;
-  margin:50px;
-  padding:0px;
   text-align: center;
 }
 
@@ -43,6 +41,8 @@ Body Frame
   border: 5px solid red;
   width: 810px;
   height: 650px;
+  margin:50px;
+  padding:0px;
 }
 
 /*******************************************************************************
