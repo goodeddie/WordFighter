@@ -10,8 +10,11 @@ body {
 }
 ul.megamenu {
   background-color: #888;
+<<<<<<< HEAD
 	opacity: 0.4;
 	filter: alpha(opacity=40); /* For IE8 and earlier */
+=======
+>>>>>>> 0861780cdc45edc7169b7b6e0e7f3d4eb4bcab2c
   border-top: 1px solid #888;
   border-bottom: 1px solid #666;
   margin: 0px auto;
